@@ -59,7 +59,6 @@ import java.util.List;
  * Spring Data <% if (databaseType === 'sql' && !reactive) { %>JPA<% } else if (databaseType === 'sql' && reactive) { %>R2DBC<% } else if (databaseType === 'mongodb') { %>MongoDB<% } else if (databaseType === 'couchbase') { %>Couchbase<% } else if (databaseType === 'neo4j') { %>Neo4j<% } %> repository for the {@link PersistentAuditEvent} entity.
  */
 <%_ if (databaseType === 'sql' && reactive) { _%>
-@Repository
 public interface PersistenceAuditEventRepository extends R2dbcRepository<PersistentAuditEvent, Long>, PersistenceAuditEventRepositoryInternal {
 
     @Query("INSERT INTO <%= jhiTablePrefix %>_persistent_audit_evt_data VALUES(:eventId, :name, :value)")
