@@ -50,7 +50,7 @@ jobs:
         with:
           application-sample: ng-default
           executable: jhipster-foo
-      - uses: jhipster/actions/setup-runner@v0
+      - uses: jhipster/actions/setup-runner@v1
         with:
           node-version: ${{ steps.setup.outputs.node-version }}
           java-version: ${{ steps.setup.outputs.java-version }}
@@ -63,7 +63,7 @@ jobs:
       #----------------------------------------------------------------------
       # Install JHipster and generate project+entities
       #----------------------------------------------------------------------
-      - uses: jhipster/actions/build-jhipster-bom@v0
+      - uses: jhipster/actions/build-jhipster-bom@v1
         with:
           jhipster-bom-ref: main
       - name: 'GENERATION: generate blueprint'
