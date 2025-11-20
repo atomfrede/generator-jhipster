@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "@angular/common": "20.1.0",
-    "@fortawesome/angular-fontawesome": "2.0.1",
+    "@angular/common": "21.0.0",
+    "@fortawesome/angular-fontawesome": "3.0.0",
     "@fortawesome/fontawesome-svg-core": "6.7.2",
     "@fortawesome/free-solid-svg-icons": "6.7.2",
     "@ng-bootstrap/ng-bootstrap": "19.0.1",
@@ -11,12 +11,12 @@
     "@stomp/rx-stomp": "2.0.1",
     "bootstrap": "5.3.7",
     "bootswatch": "5.3.7",
-    "ngx-cookie-service": "20.0.1",
+    "ngx-cookie-service": "20.1.1",
     "ngx-infinite-scroll": "20.0.0",
     "rxjs": "7.8.2",
     "sockjs-client": "1.6.1",
     "tslib": "2.8.1",
-    "zone.js": "0.15.1"
+    "zone.js": "0.16.0"
   },
   "devDependencies": {
     "@angular-architects/module-federation": "20.0.0",
@@ -24,8 +24,8 @@
     "@angular-builders/custom-esbuild": "20.0.0",
     "@angular-builders/custom-webpack": "20.0.0",
     "@angular-builders/jest": "20.0.0",
-    "@angular/build": "20.1.0",
-    "@angular/cli": "20.1.0",
+    "@angular/build": "21.0.0",
+    "@angular/cli": "21.0.0",
     "@eslint/js": "9.31.0",
     "@types/jest": "29.5.14",
     "@types/node": "20.19.7",
@@ -51,7 +51,7 @@
     "postcss-rtlcss": "5.7.1",
     "rimraf": "5.0.8",
     "ts-jest": "29.4.0",
-    "typescript": "5.8.3",
+    "typescript": "5.9.3",
     "typescript-eslint": "8.37.0",
     "webpack": "5.100.1",
     "webpack-bundle-analyzer": "4.10.2",
