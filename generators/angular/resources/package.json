@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@angular/common": "21.2.2",
+    "@angular/common": "21.2.5",
     "@fortawesome/angular-fontawesome": "4.0.0",
     "@fortawesome/free-solid-svg-icons": "7.2.0",
     "@ng-bootstrap/ng-bootstrap": "20.0.0",
@@ -9,19 +9,19 @@
     "@stomp/rx-stomp": "2.3.0",
     "bootstrap": "5.3.8",
     "bootswatch": "5.3.8",
-    "ngx-cookie-service": "21.1.0",
+    "ngx-cookie-service": "21.3.1",
     "ngx-infinite-scroll": "21.0.0",
     "rxjs": "7.8.2",
     "sockjs-client": "1.6.1",
     "tslib": "2.8.1"
   },
   "devDependencies": {
-    "@angular-architects/module-federation": "21.2.1",
-    "@angular-architects/module-federation-runtime": "21.2.1",
+    "@angular-architects/module-federation": "21.2.2",
+    "@angular-architects/module-federation-runtime": "21.2.2",
     "@angular-builders/custom-esbuild": "21.0.3",
     "@angular-builders/custom-webpack": "21.0.3",
-    "@angular/build": "21.2.1",
-    "@angular/cli": "21.2.1",
+    "@angular/build": "21.2.3",
+    "@angular/cli": "21.2.3",
     "@eslint/js": "10.0.1",
     "@types/folder-hash": "4.0.4",
     "@types/node": "22.19.15",
